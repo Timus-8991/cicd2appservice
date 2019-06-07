@@ -22,7 +22,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'src/SimpleAPI/SimpleAPI.csproj'
+    projects: 'cicd2apiservice.csproj'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
