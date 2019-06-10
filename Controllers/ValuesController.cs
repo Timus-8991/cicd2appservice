@@ -14,7 +14,7 @@ namespace cicd2apiservice.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "in", "cicd2appservice" };
+            return new string[] { "in", "api2" };
         }
 
         // GET api/values/5
